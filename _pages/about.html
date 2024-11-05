@@ -1,0 +1,58 @@
+---
+permalink: /
+layout: default
+author_profile: false
+redirect_from:
+- /about/
+- /about.html
+---
+
+{% include base_path %}
+
+{% if page.author and site.data.authors[page.author] %}
+{% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+{% endif %}
+{% assign avatar = author.avatar | prepend: "/images/" | prepend: base_path %}
+
+
+<style>
+    .title {
+        font-size: 5rem;
+        margin: 60px;
+    }
+
+    .body {
+        width: 1000px;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 226, 188);
+    }
+</style>
+
+<center>
+    <div class="body">
+        <div class="title">
+            About me!
+        </div>
+
+        <div>
+            <div class="author__avatar" style="width:350px;height:350px;float:right;">
+                <img src="{{ avatar }}" alt="{{ author.name }}" style="object-fit:contain;max-width: 300px;">
+            </div>
+            <div>
+                I am a second year Master of Science student
+                at the University of Illinois Urbana-Champaign (UIUC)
+                in the Siebel School of Computing and Data Science.
+                As a part of the <b>Computing Education Research Area</b>,
+                my research interest lies in building educational tools to improve student learning,
+                with autograding tools being the main focus.
+                My current research involves building and evaluating an
+                <b>Automatic Short Answer Grading</b> system to
+                promote instant feedback in various open-ended response problems,
+                and studying how and when the feedback can be helpful.
+                I am also interested in understanding the perspectives of students,
+                teaching assistants, and instructors on using potentially unreliable systems for assessment.
+            </div>
+        </div>
+    </div>
+</center>

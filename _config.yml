@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Victor Zhao"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Victor Zhao"
 description              : &description "personal description"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -21,13 +21,14 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Chenyan (Victor) Zhao"
   chinese_name     : "赵宸言"
   pronouns         : "he/him/his"
-  bio              : "MSCS student at UIUC"
+  bio              : "MSCS student @ UIUC, Software developer @ PrairieLearn"
   location         : "Champaign, Illinois"
-  employer         : "University of Illinois"
+  employer         : "CDS @ UIUC"
+  employer_website : "https://siebelschool.illinois.edu/"
   uri              : # URL
   p_email          : "victorsss.orz@outlook.com" 
   i_email          : "chenyan4@illinois.edu" 
