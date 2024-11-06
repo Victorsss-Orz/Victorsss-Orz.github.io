@@ -1,5 +1,5 @@
 ---
-permalink: /projects
+permalink: /projects/
 layout: archive
 author_profile: true
 redirect_from:
@@ -33,9 +33,13 @@ title: "Projects"
     }
 </style>
 
+{% include base_path %}
+
 <div class="project-item">
     <div class="text">
-        <h2>Automatic Short Answer Grading at scale using Large Language Models</h2>
+        <a href="{{ base_path }}/project/ASAG" rel="permalink">
+            <h2>Automatic Short Answer Grading at scale using Large Language Models</h2>
+        </a>
         <p>
             <i>Project description:</i> The rapid expansion of online and large-scale educational platforms has
             significantly increased the volume of student assignments, creating a growing demand for efficient and
