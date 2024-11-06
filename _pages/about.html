@@ -17,46 +17,59 @@ redirect_from:
 
 <style>
     .title {
-        font-size: 5rem;
-        margin: 60px;
+        font-size: 3rem;
+        margin-top: 60px;
+    }
+
+    .subtitle{
+        font-size: 1.5rem;
+        margin-bottom: 40px;
     }
 
     .body {
         width: 1000px;
         align-items: center;
         justify-content: center;
-        background-color: rgb(255, 226, 188);
+        background-color: rgb(255, 241, 223);
     }
 </style>
 
 <center>
     <div class="body">
         <div class="title">
-            About me!
+            Chenyan (Victor) Zhao / 赵宸言
+        </div>
+
+        <div class="subtitle">
+            Welcome! 
         </div>
 
         <div>
-            {{ base_path }}
-        </div>
-
-        <div>
-            <div class="author__avatar" style="width:350px;height:350px;float:right;">
+            <div class="author__avatar" style="width:350px;height:350px;float:right;margin-top: 50px;">
                 <img src="{{ avatar }}" alt="{{ author.name }}" style="object-fit:contain;max-width: 300px;">
             </div>
-            <div>
+            <p>
                 I am a second year Master of Science student
                 at the University of Illinois Urbana-Champaign (UIUC)
                 in the Siebel School of Computing and Data Science.
-                As a part of the <b>Computing Education Research Area</b>,
-                my research interest lies in building educational tools to improve student learning,
+                I also earned my Bachelor's degree here
+                majoring in Mathematics & Computer Science.
+                I am a part of the <b>Computing Education Research Area</b>,
+                and my advisor is the wonderful <a href="https://mfsilva.web.illinois.edu/">Mariana Silva</a>.
+            </p>
+            <p>
+                My interest lies in building educational tools to improve student learning,
                 with autograding tools being the main focus.
                 My current research involves building and evaluating an
-                <b>Automatic Short Answer Grading</b> system to
+                <b>Automatic Short Answer Grading (ASAG)</b> system to
                 promote instant feedback in various open-ended response problems,
                 and studying how and when the feedback can be helpful.
+                I am employed half-time as a software developer in
+                <a href="https://www.prairielearn.com/">PrairieLearn</a>,
+                where I am responsible for developing the ASAG system.
                 I am also interested in understanding the perspectives of students,
                 teaching assistants, and instructors on using potentially unreliable systems for assessment.
-            </div>
+            </p>
         </div>
     </div>
 </center>
