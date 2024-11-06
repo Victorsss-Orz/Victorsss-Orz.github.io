@@ -5,11 +5,14 @@ author_profile: true
 redirect_from:
 - /projects/
 - /projects.html
+title: "Projects"
 ---
 
 <style>
     .project-item {
         display: flex;
+        margin-bottom: 50px;
+        margin-right: 100px;
     }
 
     .project-item .text {
@@ -20,10 +23,96 @@ redirect_from:
         width: auto;
         float: right;
     }
+
+    .project-item p {
+        font-size: .9rem;
+    }
+
+    .project-item h2 {
+        margin-bottom: 30px;
+    }
 </style>
 
 <div class="project-item">
     <div class="text">
         <h2>Automatic Short Answer Grading at scale using Large Language Models</h2>
+        <p>
+            <i>Project description:</i> The rapid expansion of online and large-scale educational platforms has
+            significantly increased the volume of student assignments, creating a growing demand for efficient and
+            effective grading systems. To address this challenge, our project proposes the implementation of an
+            Automatic Short Answer Grading (ASAG) system, utilizing advancements in Large Language Models (LLMs) to
+            streamline the grading process.
+        </p>
+
+        <p>
+            This project enables instructors, irrespective of their familiarity with LLM technology, to utilize the ASAG
+            system for grading free-form textual short answers. The system leverages pretrained models such as OpenAI's
+            GPT variants, as well as specialized locally trained models, to provide accurate, fair, and timely feedback
+            on student submissions. This initiative will not only reduce the grading burden on educators but also
+            enhance the educational experience by delivering immediate and constructive feedback to students, thereby
+            promoting deeper engagement and continuous learning.
+        </p>
+
+        <p>
+            Key research questions addressed in this project include the optimization of prompt design, the necessity
+            and structure of training data for LLMs, and the system's ability to function in real-time environments.
+            Additionally, we explore the system's capacity to provide equitable and unbiased feedback across diverse
+            student populations, as well as study human perceptions regarding unreliable systems.
+        </p>
+
+        <p>
+            <i>Project codebase:</i> <a
+                href="https://github.com/PrairieLearn/PrairieLearn/blob/master/apps/prairielearn/src/ee/lib/ai-grading.ts">ai-grading.ts</a>,
+            <a
+                href="https://github.com/PrairieLearn/PrairieLearn/blob/master/apps/prairielearn/src/ee/lib/ai-grading.sql">ai-grading.sql</a>
+        </p>
+
+    </div>
+</div>
+
+<div class="project-item">
+    <div class="text">
+        <h2>Designing a new CS1 course for Engineering students</h2>
+
+        <p>
+            <i>Project description:</i> The CS 101 course, required by most non-CS majors in the Grainger College of
+            Engineering, has historically equipped students with Python and Matlab programming skills essential for
+            solving engineering problems. However, the course's effectiveness has been diluted over time due to
+            an overemphasis on diverse engineering applications and outdated content material, undermining its
+            programming rigor.
+        </p>
+
+        <p>
+            In this project, we propose a comprehensive redesign of CS 101,focusing on re-establishing basic programming
+            fundamentals (CS1) during lectures while integrating diverse engineering applications into lab sections and
+            bi-weekly mini-projects. Drawing on qualitative feedback from interviews with over 10 faculty members across
+            both Computer Science and other Grainger Departments, we propose to develop a curriculum that balances CS1
+            topics with practical engineering applications, create new lecture content reflecting CS1 learning
+            objectives, create auto-graded and randomized questions on PrairieLearn to support mastery learning during
+            homework, enhance the lab sections through Process-Oriented Guided Inquiry Learning, develop mini-projects
+            applied to engineering applications, and design concept inventory questions to measure the impact of our
+            course redesign. Our goal is to ensure that engineering students are better equipped with the computational
+            skills necessary to navigate and innovate within their respective engineering fields.
+        </p>
+
+    </div>
+</div>
+
+<div class="project-item">
+    <div class="text">
+        <h2>A built-in web calculator for PrairieLearn</h2>
+        <p>
+            <i>Project description:</i> In the University of Illinois's <a
+                href="https://cbtf.illinois.edu/">Computer-Based Testing Facility</a>, there has historically only been
+            physical TI calculators offered as the calculator of choice during various exams. However, the complexity of
+            the functions and the lack of clear documentation on TI calculators often result in students being unsure of
+            how to use them effectively.
+        </p>
+        <p>
+            Following a Universal Design for Learning approach, we build a web-based calculator inside PrairieLearn that
+            has similar functions to the real TI calculators with a more user-friendly interface. This would allow
+            students to access the same calculator interface both inside and outside the testing environment to gain the
+            necessary familiarity.
+        </p>
     </div>
 </div>
