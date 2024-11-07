@@ -21,7 +21,7 @@ redirect_from:
         margin-top: 60px;
     }
 
-    .subtitle{
+    .subtitle {
         font-size: 1.5rem;
         margin-bottom: 40px;
     }
@@ -32,6 +32,17 @@ redirect_from:
         justify-content: center;
         background-color: rgb(255, 241, 223);
     }
+
+    .text-avatar-container {
+        display: flex;
+        gap: 2%;
+    }
+
+    @media (max-width: 1100px) {
+        .text-avatar-container {
+            flex-direction: column-reverse;
+        }
+    }
 </style>
 
 <center>
@@ -41,35 +52,37 @@ redirect_from:
         </div>
 
         <div class="subtitle">
-            Welcome! 
+            Welcome!
         </div>
 
-        <div>
-            <div class="author__avatar" style="width:350px;height:350px;float:right;margin-top: 50px;">
-                <img src="{{ avatar }}" alt="{{ author.name }}" style="object-fit:contain;max-width: 300px;">
+        <div class="text-avatar-container">
+            <div style="flex-grow: 1;">
+                <p>
+                    I am a second year Master of Science student
+                    at the University of Illinois Urbana-Champaign (UIUC)
+                    in the Siebel School of Computing and Data Science.
+                    I also earned my Bachelor's degree here
+                    majoring in Mathematics & Computer Science.
+                    I am a part of the <b>Computing Education Research Area</b>,
+                    and my advisor is the amazing <a href="https://mfsilva.web.illinois.edu/">Mariana Silva</a>.
+                </p>
+                <p>
+                    My interest lies in building educational tools to improve student learning,
+                    with autograding tools being the main focus.
+                    My current research involves building and evaluating an
+                    <b>Automatic Short Answer Grading (ASAG)</b> system to
+                    promote instant feedback in various open-ended response problems,
+                    and studying how and when the feedback can be helpful.
+                    I am employed half-time as a software developer in
+                    <a href="https://www.prairielearn.com/">PrairieLearn</a>,
+                    where I am responsible for developing the ASAG system.
+                    I am also interested in understanding the perspectives of students,
+                    teaching assistants, and instructors on using potentially unreliable systems for assessment.
+                </p>
             </div>
-            <p>
-                I am a second year Master of Science student
-                at the University of Illinois Urbana-Champaign (UIUC)
-                in the Siebel School of Computing and Data Science.
-                I also earned my Bachelor's degree here
-                majoring in Mathematics & Computer Science.
-                I am a part of the <b>Computing Education Research Area</b>,
-                and my advisor is the amazing <a href="https://mfsilva.web.illinois.edu/">Mariana Silva</a>.
-            </p>
-            <p>
-                My interest lies in building educational tools to improve student learning,
-                with autograding tools being the main focus.
-                My current research involves building and evaluating an
-                <b>Automatic Short Answer Grading (ASAG)</b> system to
-                promote instant feedback in various open-ended response problems,
-                and studying how and when the feedback can be helpful.
-                I am employed half-time as a software developer in
-                <a href="https://www.prairielearn.com/">PrairieLearn</a>,
-                where I am responsible for developing the ASAG system.
-                I am also interested in understanding the perspectives of students,
-                teaching assistants, and instructors on using potentially unreliable systems for assessment.
-            </p>
+            <div class="author__avatar" style="flex: 1; margin-right: 2%;">
+                <img src="{{ avatar }}" alt="{{ author.name }}" style="object-fit: contain; max-width: 300px;">
+            </div>
         </div>
     </div>
 </center>
