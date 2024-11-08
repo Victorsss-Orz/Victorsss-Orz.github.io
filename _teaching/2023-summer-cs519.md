@@ -6,15 +6,9 @@ permalink: /teaching/2023-summer-cs519
 venue: "University of Illinois Urbana-Champaign, Computer Science"
 date: 2023-05-13
 location: "Champaign, Illinois"
+excerpt: Playing around the autograder so it can provide better feedback to student code. 
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+I worked for the graduate level visualization class even before taking it during the summer. I was lucky to have many Teaching Assistants in the team with me who are equipped with the necessary knowledge for the class so I don't have to worry about the knowledge myself. Over the course of the summer, I worked on the coding autograders in the course to make it provide more concrete and constructive feedback to the students. 
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+<img src='/images/teaching_CS519/git-history.png'>
