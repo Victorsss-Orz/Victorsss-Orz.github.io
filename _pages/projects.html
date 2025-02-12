@@ -35,9 +35,13 @@ title: "Projects"
 
 {% include base_path %}
 
-<div class="project-item">
+{% for post in site.projects %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<!-- <div class="project-item">
     <div class="text">
-        <a href="{{ base_path }}/project/ASAG" rel="permalink">
+        <a href="{{ base_path }}/projects/ASAG" rel="permalink">
             <h2>Automatic Short Answer Grading at scale using Large Language Models</h2>
         </a>
         <p>
@@ -72,11 +76,11 @@ title: "Projects"
         </p>
 
     </div>
-</div>
+</div> -->
 
-<div class="project-item">
+<!-- <div class="project-item">
     <div class="text">
-        <a href="{{ base_path }}/project/CS101" rel="permalink">
+        <a href="{{ base_path }}/projects/CS101" rel="permalink">
             <h2>Designing a new CS1 course for Engineering students</h2>
         </a>
 
@@ -102,9 +106,9 @@ title: "Projects"
         </p>
 
     </div>
-</div>
+</div> -->
 
-<div class="project-item">
+<!-- <div class="project-item">
     <div class="text">
         <h2>A built-in web calculator for PrairieLearn</h2>
         <p>
@@ -121,4 +125,4 @@ title: "Projects"
             necessary familiarity.
         </p>
     </div>
-</div>
+</div> -->

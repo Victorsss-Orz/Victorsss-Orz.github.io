@@ -2,7 +2,7 @@
 title: "Autograding Mathematical Induction Proofs with Natural Language Processing"
 collection: publications
 category: manuscripts
-permalink: /publication/2024-06-11-autograding-mathematical-induction-proofs-with-natural-language-processing
+permalink: /publications/2024-06-11-autograding-induction-proofs
 excerpt: ""
 date: 2024-06-11
 venue: "International Journal of Artificial Intelligence in Education (in submission)"

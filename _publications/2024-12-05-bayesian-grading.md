@@ -2,7 +2,7 @@
 title: "A Case for Bayesian Grading"
 collection: publications
 category: conferences
-permalink: /publication/2024-12-05-A-Case-For-Bayesian-Grading
+permalink: /publications/2024-12-05-bayesian-grading
 date: 2024-12-05
 excerpt: ""
 venue: "SIGCSE Virtual 2024: Proceedings of the 2024 on ACM Virtual Global Computing Education Conference V. 1"

@@ -1,6 +1,9 @@
 ---
-permalink: /project/ASAG
-title: ASAG
+permalink: /projects/ASAG
+title: Automatic Short Answer Grading (ASAG) at scale using Large Language Models
+excerpt:
+  "This project enables instructors, irrespective of their familiarity with LLM technology, to utilize the ASAG
+  system for grading free-form textual short answers. "
 ---
 
 ## Introduction
@@ -23,3 +26,6 @@ and structure of training data for LLMs, and the system's ability to function in
 Additionally, we explore the system's capacity to provide equitable and unbiased feedback across diverse
 student populations, as well as study human perceptions regarding unreliable systems.
 
+_Project codebase:_
+<a href="https://github.com/PrairieLearn/PrairieLearn/blob/master/apps/prairielearn/src/ee/lib/ai-grading.ts">ai-grading.ts</a>,
+<a href="https://github.com/PrairieLearn/PrairieLearn/blob/master/apps/prairielearn/src/ee/lib/ai-grading.sql">ai-grading.sql</a>

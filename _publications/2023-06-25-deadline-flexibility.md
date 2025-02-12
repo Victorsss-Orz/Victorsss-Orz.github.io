@@ -2,7 +2,7 @@
 title: "How Much Deadline Flexibility on Formative Assessments Should We Be Giving to Our Students?"
 collection: publications
 category: conferences
-permalink: /publication/2023-06-25-how-much-deadline-flexibility-on-formative-assessments-should-we-be-giving-to-our-students
+permalink: /publications/2023-06-25-deadline-flexibility
 excerpt: ""
 date: 2023-06-25
 venue: "2023 ASEE Annual Conference & Exposition"
