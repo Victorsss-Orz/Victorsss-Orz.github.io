@@ -19,3 +19,7 @@ Following a Universal Design for Learning approach, we build a web-based calcula
 has similar functions to the real TI calculators with a more user-friendly interface. This would allow
 students to access the same calculator interface both inside and outside the testing environment to gain the
 necessary familiarity.
+
+[Example question](https://us.prairielearn.com/pl/public/course/8928/question/9316374/preview)
+
+<img src='/images/project_calculator/calculator-question.png'>
