@@ -11,6 +11,9 @@ redirect_from:
 
 # Education
 
+- PhD in Computer Science, University of Illinois Urbana-Champaign, ???
+  - Advisor: Mariana Silva
+  - Research Interest: Computer Science Education
 - M.S. in Computer Science, University of Illinois Urbana-Champaign, 2025 (expected)
   - Advisor: Mariana Silva
   - Research Interest: Computer Science Education
@@ -18,8 +21,8 @@ redirect_from:
 
 # Work experience
 
-- Fall 2024: Software Developer
-  - PrairieLearn, Inc.
+- Aug 2024 - Dec 2024: PrairieLearn, Inc.
+  - Software developer
   - Implement LLM-based grading interface in PrairieLearn core, including access control and billing
   - Implement LLM grading accuracy statistics in PrairieLearn core, including access control
 
@@ -31,6 +34,12 @@ redirect_from:
 # Publications
 
   <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+# Projects
+
+  <ul>{% for post in site.projects %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   

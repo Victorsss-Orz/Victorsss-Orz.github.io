@@ -2,7 +2,7 @@
 title: "A User Experience Study of MeetingMayhem: A Web-Based Game to Teach Adversarial Thinking"
 collection: publications
 category: conferences
-permalink: /publications/2024-07-03-meetingmayhem-user-experience
+permalink: /publications/2024-07-meetingmayhem-user-experience
 date: 2024-07-03
 excerpt: ""
 venue: "Proceedings of the 2024 on Innovation and Technology in Computer Science Education V. 1"
