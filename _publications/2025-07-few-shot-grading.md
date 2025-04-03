@@ -2,10 +2,10 @@
 title: "Language Models are Few-Shot Graders"
 collection: publications
 category: conferences
-permalink: /publications/2025-02-few-shot-grading
-date: 2025-02-18
+permalink: /publications/2025-07-few-shot-grading
+date: 2025-07-22
 excerpt: ""
-venue: "26th International Conference on Artificial Intelligence in Education (in submission)"
+venue: "26th International Conference on Artificial Intelligence in Education"
 paperurl: "https://arxiv.org/abs/2502.13337"
 citation: ""
 ---
