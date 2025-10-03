@@ -11,12 +11,12 @@ redirect_from:
 
 # Education
 
-- PhD in Computer Science, University of Illinois Urbana-Champaign, ???
+- PhD in Computer Science, University of Illinois Urbana-Champaign, 2029/2030
   - Advisor: Mariana Silva
-  - Research Interest: Computer Science Education
-- M.S. in Computer Science, University of Illinois Urbana-Champaign, 2025 (expected)
+  - Research Interest: Computers and Education
+- M.S. in Computer Science, University of Illinois Urbana-Champaign, 2025
   - Advisor: Mariana Silva
-  - Research Interest: Computer Science Education
+  - Research Interest: Computers and Education
 - B.S. in Mathematics & Computer Science, University of Illinois Urbana-Champaign, 2023
 
 # Work experience
